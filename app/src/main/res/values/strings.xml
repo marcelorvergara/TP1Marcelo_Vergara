@@ -1,4 +1,34 @@
 <resources>
     <string name="app_name">Pesquisa Eleições 2020</string>
     <string name="titulo">Eleições 2020</string>
+    <string name="insertIdade">Insira sua idade aqui</string>
+    <string name="pr_ximo">Próximo</string>
+    <string name="textView">Marque as eleições em que votou:</string>
+    <string name="textView2" />
+    <string name="checkBox">Eleições 2018</string>
+    <string name="checkBox3">Eleições 2016</string>
+    <string name="checkBox4">Eleções 2014</string>
+    <string name="checkBox5">Eleições 2012</string>
+    <string name="checkBox6">Eleições 2010</string>
+    <string name="checkBox7">Eleições 2008</string>
+    <string name="checkBox8">Eleições 2006</string>
+    <string name="checkBox9">Eleições 2004</string>
+    <string name="checkBox10">Eleições 2002</string>
+    <string name="checkBox11">Eleições 2000</string>
+    <string name="checkBox12">Eleições 1998</string>
+    <string name="checkBox13">Eleições 1996</string>
+    <string name="checkBox14">Eleições 1994</string>
+    <string name="textView3" />
+    <string name="textView4" />
+    <string name="textView5" />
+    <string name="textView6" />
+    <string name="textView7" />
+    <string name="textView8" />
+    <string name="textView9" />
+    <string name="textView10" />
+    <string name="textView11" />
+    <string name="textView12" />
+    <string name="textView13" />
+    <string name="textView14" />
+    <string name="send">Enviar</string>
 </resources>

@@ -10,7 +10,11 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:background="@color/colorPrimary"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/eleicois2020"
@@ -37,195 +41,199 @@
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="?attr/listPreferredItemPaddingLeft"
+                android:layout_marginStart="?attr/listPreferredItemPaddingLeft"
                 android:orientation="vertical">
 
 
                 <!-- Everything you want to scroll goes here -->
+
                 <TextView
                     android:id="@+id/textView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="?attr/listPreferredItemPaddingLeft"
-                    android:text="Marque as eleições em que votou:"
-                    android:textSize="24sp" />
+                    android:layout_marginStart="?attr/listPreferredItemPaddingLeft"
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/textView"
+                    android:textAllCaps="true"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView"
+                    android:text="@string/textView2"
                     android:visibility="invisible" />
 
                 <CheckBox
                     android:id="@+id/checkBox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Eleiçoes 2018" />
+                    android:text="@string/checkBox" />
 
                 <TextView
                     android:id="@+id/textView3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView"
+                    android:text="@string/textView3"
                     android:visibility="invisible" />
 
                 <CheckBox
                     android:id="@+id/checkBox3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Eleiçoes 2016" />
+                    android:text="@string/checkBox3" />
 
                 <TextView
                     android:id="@+id/textView4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView"
+                    android:text="@string/textView4"
                     android:visibility="invisible" />
 
                 <CheckBox
                     android:id="@+id/checkBox4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Eleiçoes 2016" />
+                    android:text="@string/checkBox4" />
 
                 <TextView
                     android:id="@+id/textView5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView"
+                    android:text="@string/textView5"
                     android:visibility="invisible" />
 
                 <CheckBox
                     android:id="@+id/checkBox5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Eleiçoes 2014" />
+                    android:text="@string/checkBox5" />
 
                 <TextView
                     android:id="@+id/textView6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView"
+                    android:text="@string/textView6"
                     android:visibility="invisible" />
 
                 <CheckBox
                     android:id="@+id/checkBox6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Eleiçoes 2012" />
+                    android:text="@string/checkBox6" />
 
                 <TextView
                     android:id="@+id/textView7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView"
+                    android:text="@string/textView7"
                     android:visibility="invisible" />
 
                 <CheckBox
                     android:id="@+id/checkBox7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Eleiçoes 2010" />
+                    android:text="@string/checkBox7" />
 
                 <TextView
                     android:id="@+id/textView8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView"
+                    android:text="@string/textView8"
                     android:visibility="invisible" />
 
                 <CheckBox
                     android:id="@+id/checkBox8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Eleiçoes 2008" />
+                    android:text="@string/checkBox8" />
 
                 <TextView
                     android:id="@+id/textView9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView"
+                    android:text="@string/textView9"
                     android:visibility="invisible" />
 
                 <CheckBox
                     android:id="@+id/checkBox9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Eleiçoes 2006" />
+                    android:text="@string/checkBox9" />
 
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView"
+                    android:text="@string/textView10"
                     android:visibility="invisible" />
 
                 <CheckBox
                     android:id="@+id/checkBox10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Eleiçoes 2004" />
+                    android:text="@string/checkBox10" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView"
+                    android:text="@string/textView11"
                     android:visibility="invisible" />
 
                 <CheckBox
                     android:id="@+id/checkBox11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Eleiçoes 2004" />
+                    android:text="@string/checkBox11" />
 
                 <TextView
                     android:id="@+id/textView12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView"
+                    android:text="@string/textView12"
                     android:visibility="invisible" />
 
                 <CheckBox
                     android:id="@+id/checkBox12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Eleiçoes 2002" />
+                    android:text="@string/checkBox12" />
 
                 <TextView
                     android:id="@+id/textView13"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView"
+                    android:text="@string/textView13"
                     android:visibility="invisible" />
 
                 <CheckBox
                     android:id="@+id/checkBox13"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Eleiçoes 2000" />
+                    android:text="@string/checkBox13" />
 
                 <TextView
                     android:id="@+id/textView14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView"
+                    android:text="@string/textView14"
                     android:visibility="invisible" />
 
                 <CheckBox
                     android:id="@+id/checkBox14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Eleiçoes 1998" />
+                    android:text="@string/checkBox14" />
 
                 <Button
                     android:id="@+id/bttn_ok"
                     style="@style/Widget.AppCompat.Button.Colored"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:shadowColor="@color/colorAccent"
-                    android:text="Enviar"
+                    android:text="@string/send"
                     android:textColor="@color/colorSecondary"
                     android:textColorLink="@color/colorPrimaryDark" />
             </LinearLayout>

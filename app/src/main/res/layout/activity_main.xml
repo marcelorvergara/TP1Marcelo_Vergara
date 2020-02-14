@@ -26,7 +26,9 @@
         android:shadowRadius="2"
         android:text="@string/titulo"
         android:textColor="#ffffffff"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/idade"
@@ -35,11 +37,12 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:ems="10"
-        android:hint="Insira sua idade aqui"
+        android:hint="@string/insertIdade"
         android:inputType="textPersonName"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/eleicois" />
+        app:layout_constraintTop_toBottomOf="@+id/eleicois"
+        android:importantForAutofill="no" />
 
     <Button
         android:id="@+id/bttn_next"
@@ -50,7 +53,7 @@
         android:layout_marginTop="32dp"
         android:background="@color/colorAccent"
         android:shadowColor="@color/colorAccent"
-        android:text="Próximo"
+        android:text="@string/pr_ximo"
         android:textColor="@color/colorSecondary"
         android:textColorLink="@color/colorPrimaryDark"
         app:layout_constraintStart_toStartOf="@+id/guideline"
